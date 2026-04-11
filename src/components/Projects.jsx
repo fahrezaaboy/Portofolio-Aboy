@@ -16,7 +16,7 @@ export default function Projects() {
   const [active, setActive] = useState('all')
   const [hovered, setHovered] = useState(null)
 
-  // ✅ FILTER FIX + SUPPORT MULTI CATEGORY
+  
   const filtered =
     active === 'all'
       ? projects
