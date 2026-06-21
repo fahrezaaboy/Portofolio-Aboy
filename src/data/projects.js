@@ -22,7 +22,7 @@ export const profile = {
 
 export const experiences = [
   {
-    period: '2025',
+    period: '2025-2026',
     role: 'Freelance Web Developer',
     place: 'Membuat website tentang panti asuhan dan saya juga membuat website tentang kode pos daerah indonesia serta saya membuat website jualan bolen dengan nama bolen crispy with love',
   },
