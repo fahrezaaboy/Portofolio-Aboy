@@ -81,9 +81,9 @@ export default function Hero() {
                     initial={{ opacity: 0, scale: 0.85 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.7, delay: 0.2 }}
-                    className="hidden lg:flex justify-center"
+                    className="flex lg:flex justify-center"
                 >
-                    <div className="relative w-72 h-72">
+                    <div className="relative w-56 h-56 md:w-72 md:h-72">
                         {/* Spinning ring */}
                         <div className="absolute inset-0 rounded-full border-2 border-dashed border-accent/30 animate-spin-slow" />
                         {/* Static ring */}

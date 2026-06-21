@@ -24,7 +24,7 @@ export const experiences = [
   {
     period: '2025',
     role: 'Freelance Web Developer',
-    place: 'Membuat website tentang panti asuhan dan saya juga membuat website tentang kode pos daerah indonesia',
+    place: 'Membuat website tentang panti asuhan dan saya juga membuat website tentang kode pos daerah indonesia serta saya membuat website jualan bolen dengan nama bolen crispy with love',
   },
   {
     period: '2026',
@@ -32,7 +32,7 @@ export const experiences = [
     place: '-',
   },
   {
-    period: '2022 - Sekarang',
+    period: '2026 - Sekarang',
     role: 'Siswa SMK RPL/PPLG',
     place: 'SMK Wikrama Bogor',
   },
