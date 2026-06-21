@@ -21,7 +21,7 @@ export default function Hero() {
                         {...fadeUp(0.1)}
                         className="inline-block px-4 py-1.5 rounded-full glass text-accent-light text-xs mb-6"
                     >
-                        👋 {profile.grade} · {profile.major}
+                         {profile.grade} · {profile.major}
                     </motion.span>
 
                     <motion.h1
@@ -44,7 +44,7 @@ export default function Hero() {
                     </motion.p>
 
                     <motion.div {...fadeUp(0.4)} className="flex flex-wrap gap-3 mb-8">
-                        <a href="#contact" className="btn-primary">Hubungi Aku</a>
+                        <a href="#contact" className="btn-primary">Hubungi Saya</a>
                         <a href="#projects" className="btn-outline">Lihat Proyekku</a>
                         
                         {/* FITUR DOWNLOAD CV */}

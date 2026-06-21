@@ -6,13 +6,13 @@ export const profile = {
   grade: 'Kelas XI',
   bio: [
     'Saya Fahreza, siswa kelas XI jurusan RPL/PPLG di SMK Wikrama Bogor. Mulai belajar coding dari kelas X.',
-    'Aku percaya skill bisa diasah dari mana aja, bukan cuma dari sekolah. Yang penting semangat belajar dan terus praktek! 🔥',
+    'Saya percaya skill bisa diasah dari mana aja, bukan cuma dari sekolah. Yang penting semangat belajar dan terus praktek!',
   ],
   email: 'fahrezaaboyfiransyah30@gmail.com',
   whatsapp: '+62 895-3821-49107',
   location: 'Bogor, Cigombong, Indonesia',
   github: 'https://github.com/fahrezaaboy',
-  linkedin: 'https://linkedin.com/in/fahrezaaboy',
+  linkedin: 'https://linkedin.com/in/fahreza-aboy-firansyah-562725402',
   stats: [
     { value: '2',  label: 'Proyek' },
     { value: '3',  label: 'Tahun Belajar' },
@@ -22,12 +22,12 @@ export const profile = {
 
 export const experiences = [
   {
-    period: '2024 - Sekarang',
+    period: '2025',
     role: 'Freelance Web Developer',
-    place: 'Membuat website tentang panti asuhan',
+    place: 'Membuat website tentang panti asuhan dan saya juga membuat website tentang kode pos daerah indonesia',
   },
   {
-    period: '2024',
+    period: '2026',
     role: 'PKL / Magang',
     place: '-',
   },
@@ -59,6 +59,16 @@ export const projects = [
     github: 'https://github.com/fahrezaaboy/Kode-pos-daerah-indonesia',
     live: 'https://kode-pos-daerah-indonesia.netlify.app/',
   },
+  {
+    id: 3,
+    title: 'Bolen Crispy With Love',
+    desc: 'Proyek website untuk Bolen Crispy With Love. Menampilkan informasi produk dan layanan.',
+    image: "/logobolen.png",
+    tags: ['React', 'HTML/CSS'],
+    category: ['web', 'sekolah'],
+    github: 'https://github.com/fahrezaaboy/BolenCrispyWithLove.git',
+    live: 'https://portofolio-aboy.netlify.app/',
+  },
 ]
 
 export const skills = [
@@ -87,3 +97,24 @@ export const skills = [
     ],
   },
 ]
+
+// Sertifikat (2 saja sesuai permintaan)
+// Catatan: file harus ada di folder public/ dengan nama sesuai path pdf di bawah.
+export const certificates = [
+  {
+    title: 'Sertifikat 1',
+    year: '2025',
+    issuer: 'Belajar Dasar Pemrograman Web',
+    pdf: '/certificate-1.pdf',
+    image: '/sertifikat-1.png',
+  },
+  {
+    title: 'Sertifikat 2',
+    year: '2025',
+    issuer: 'Belajar Dasar Pemrograman JavaScript',
+    pdf: '/certificate-2.pdf',
+    image: '/sertifikat-2.png',
+  },
+]
+
+

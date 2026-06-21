@@ -46,9 +46,9 @@ export default function Contact() {
           {/* Info */}
           <div>
             <p className="text-muted text-sm leading-relaxed mb-8">
-              Punya proyek menarik atau mau kolaborasi bareng? Aku terbuka untuk
+              Punya proyek menarik atau mau kolaborasi bareng? Saya terbuka untuk
               freelance, magang, atau sekadar ngobrol soal coding. Jangan ragu
-              hubungi aku! 😊
+              hubungi saya! 
             </p>
 
             <div className="space-y-5">
@@ -106,7 +106,7 @@ export default function Contact() {
                 rows={5}
                 value={form.message}
                 onChange={handleChange}
-                placeholder="Hei Fahreza, aku mau tanya soal/saya ingin memberi saran..."
+                placeholder="Hei Fahreza, Saya mau tanya soal/saya ingin memberi saran..."
                 className="w-full px-4 py-2.5 bg-gray-900/50 border border-white/8 rounded-lg text-sm focus:border-accent/50 focus:outline-none transition-colors resize-none placeholder:text-dim"
               />
             </div>

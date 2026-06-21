@@ -16,7 +16,7 @@ export default function About() {
         {/* Heading */}
         <div className="mb-10">
           <h2 className="text-3xl font-bold mb-2">
-            Tentang <span className="grad-text">Aku</span>
+            Tentang <span className="grad-text">Saya</span>
           </h2>
           <div className="w-12 h-0.5 bg-accent rounded-full" />
         </div>

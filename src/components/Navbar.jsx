@@ -3,12 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 
 const links = [
-  { name: 'Home',     href: '#home' },
-  { name: 'About',    href: '#about' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Skills',   href: '#skills' },
-  { name: 'Contact',  href: '#contact' },
+  { name: 'Home',        href: '#home' },
+  { name: 'About',       href: '#about' },
+  { name: 'Projects',    href: '#projects' },
+  { name: 'Skills',      href: '#skills' },
+  { name: 'Sertifikat',  href: '#certificates' },
+  { name: 'Contact',     href: '#contact' },
 ]
+
 
 export default function Navbar() {
   const [open, setOpen]       = useState(false)
