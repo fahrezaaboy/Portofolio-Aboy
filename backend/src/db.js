@@ -2,8 +2,10 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const backendRoot = path.resolve(__dirname, '..')
+const currentDir = import.meta?.url
+  ? path.dirname(fileURLToPath(import.meta.url))
+  : process.cwd()
+const backendRoot = path.resolve(currentDir, '..')
 
 const isServerless = Boolean(
   process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME
