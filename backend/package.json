@@ -1,0 +1,17 @@
+{
+  "name": "portofolio-aboy-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dynamic REST API backend for Fahreza Aboy Firansyah portfolio",
+  "type": "module",
+  "scripts": {
+    "dev": "node --no-warnings=ExperimentalWarning --watch src/server.js",
+    "start": "node --no-warnings=ExperimentalWarning src/server.js",
+    "seed": "node --no-warnings=ExperimentalWarning src/seed.js --force"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

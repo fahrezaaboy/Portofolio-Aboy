@@ -1,0 +1,15 @@
+"$schema" = "https://open-api.netlify.com/netlify.schema.json"
+
+[build]
+  command = "npm --prefix frontend install && npm --prefix frontend run build"
+  publish = "frontend/dist"
+  environment = { NODE_VERSION = "24" }
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

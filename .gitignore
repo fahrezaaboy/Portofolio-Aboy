@@ -7,10 +7,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies & build
 node_modules
 dist
 dist-ssr
 *.local
+.netlify
+
+# Env & database files
+.env
+.env.*
+!.env.example
+backend/data/*.db
+backend/data/*.db-*
 
 # Editor directories and files
 .vscode/*

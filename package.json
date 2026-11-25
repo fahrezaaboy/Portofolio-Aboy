@@ -1,26 +1,12 @@
 {
-  "name": "smk-portfolio",
+  "name": "portofolio-aboy-workspace",
   "private": true,
-  "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "framer-motion": "^11.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.0.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.40",
-    "tailwindcss": "^3.4.7",
-    "vite": "^5.4.0"
+    "dev": "node scripts/dev.mjs",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "dev:be": "npm --prefix backend run dev",
+    "dev:fe": "npm --prefix frontend run dev",
+    "build:fe": "npm --prefix frontend run build"
   }
 }
